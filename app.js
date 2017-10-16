@@ -11,10 +11,9 @@ app.use(bodyParser.urlencoded({ extended: true}));
 app.use(express.static(path.join(__dirname, "./client")));
 app.set("views", path.join(__dirname, "./client"));
 app.set('view engine', 'ejs');
+
 //routes
-app.get('/', function (req, res) {
-  res.render('server-test');
-})
+require('./server/config/routes.js')(app);
 
 //db?
 
