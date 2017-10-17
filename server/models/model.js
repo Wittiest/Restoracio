@@ -20,7 +20,7 @@ function randYear(){
 function getReviews(arr, obj)
 {
   var sum = 0;
-  var total_entries = 10;
+  var total_entries = 10000;
   for (var i = 0; i < total_entries; i++) {
     obj.reviews[i] = arr[Math.floor(Math.random() * 5)];
   }
