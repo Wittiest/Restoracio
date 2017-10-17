@@ -3,18 +3,18 @@
 module.exports = function(app){
 
   app.get('/', function (req, res) {
-    res.render('landing');
+    res.render('pages/landing');
   });
 
   app.get('/home', function (req, res) {
-    res.render('index');
+    res.render('pages/dashboard');
   });
 
   app.get('/about', function (req, res) {
-    res.render('about');
+    res.render('pages/about');
   });
 
   app.get('/team', function (req, res) {
-    res.render('team');
+    res.render('pages/team');
   });
 }
