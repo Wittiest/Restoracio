@@ -1,0 +1,109 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("../../images/nick-hillier-254650.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.flex-center {
+    color: #fff;
+}
+
+p {
+	font-size: 20px;
+}
+.py-5
+{
+    background-image: url("../../images/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.roww
+{
+    background-color: #1C2331;
+    opacity: 0.8;
+    padding: 10;
+    color: white;
+    text-align: center;
+}
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+h2
+{
+    color: white;
+    text-align: center;
+    background-color: rgba(28, 134, 132, 0.5);
+    padding: 10;
+}
+.navbar {
+/*    background-color: transparent;*/
+}
+p
+{
+    text-align: justify;
+}
+
+.text-muted
+{
+    font-size: 105%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+li
+{
+    font-size: 110%;
+}
+
+.graph
+{
+    height: 10%;
+    padding: 10px;
+    width: 100%;
+}
+.scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+.ana {
+	background-color: rgba(28, 134, 132, 0.25) !important;
+}
+
+.bc {
+/*	background-color: rgb(71,174,173) !important;*/
+background-color: rgba(28, 134, 132, 0.50) !important
+}
+.cor_size {
+	max-width: 30% !important;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+
+.bg-image-full-about {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
