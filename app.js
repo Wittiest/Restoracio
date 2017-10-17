@@ -20,4 +20,4 @@ require('./server/config/routes.js')(app);
 //listen
 app.listen(port, function () {
   console.log('Example app listening on port 3000!');
-})
+});
