@@ -1,5 +1,5 @@
 //routes
-
+var model = require('../models/model.js');
 module.exports = function(app){
 
   app.get('/', function (req, res) {
@@ -7,7 +7,7 @@ module.exports = function(app){
   });
 
   app.get('/home', function (req, res) {
-    res.render('pages/dashboard');
+    res.render('pages/dashboard', {data: model});
   });
 
   app.get('/about', function (req, res) {

@@ -23,7 +23,6 @@ function getReviews(arr, obj)
   var total_entries = 593;
   for (var i = 0; i < total_entries; i++) {
     obj.reviews[i] = arr[Math.floor(Math.random() * 7)];
-    console.log("BACK: " + obj.reviews[i].date.month);
   }
   for (var i = 0; i < obj.reviews.length; i++) {
     sum += obj.reviews[i].rating_individual;
@@ -132,7 +131,7 @@ var reviews = [
       month: randMonth(),
       year: randYear()
     }
-  },  
+  },
   {
     rating_individual: 2,
     username: "soccermama",
@@ -180,5 +179,4 @@ var google = {
   reviews: []
 }
 var result = getReviews(reviews, google);
-// console.log(result);
 module.exports = result;
