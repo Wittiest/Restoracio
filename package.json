@@ -4,7 +4,10 @@
   "description": "collab between 42 Silicon Valley & ESCP",
   "main": "index.js",
   "repository": "https://github.com/bvautour/Restoracio.git",
-  "author": "bvautour <vautour.brad@gmail.com>",
+  "author": "bvautour <vautour.brad@gmail.com>,
+              dpearson <dpearson@student.42.us.org>,
+              spraweczga <psprawka@student.42.us.org>,
+              anastjano <anastjano@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
