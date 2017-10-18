@@ -110,6 +110,11 @@ h6
     padding-top: 0;
     width: 100%;
 }
+.img-thumbnail
+{
+  background-color:transparent;
+  border: none;
+}
 .bc {
 /*	background-color: rgb(71,174,173) !important;*/
 background-color: rgba(28, 134, 132, 0.50) !important
